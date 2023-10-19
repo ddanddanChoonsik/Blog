@@ -17,11 +17,10 @@ const About = () => {
             </div>*/}
 
             <div className='about_content'>
-            <div className='about_content_item'>
 
                 <div className='about_item'>
                     <div className='about_icon'>
-                        <Icon size={50} icon="magic"/>
+                        <Icon  icon="magic"/>
                     </div>
                     <div className='about_data'>
                     <h3>UI/UX 개선에 관심이 많습니다</h3>
@@ -33,7 +32,7 @@ const About = () => {
 
                 <div className='about_item'>
                 <div className='about_icon'>
-                 <Icon size={50} icon="gears"/>
+                 <Icon icon="gears"/>
                  </div>
                  <div className='about_data'>
                     <h3>다양한 서비스에 기술 융화를 시키는 것에 대하여 관심이 많습니다</h3>
@@ -45,7 +44,7 @@ const About = () => {
 
                 <div className='about_item'>
                 <div className='about_icon'>
-                  <Icon size={50} icon="comments" />
+                  <Icon icon="comments" />
                   </div>
                   <div className='about_data'>
                     <h3>커뮤니케이션을 하며 피드백을 받고 개선점을 찾는걸 좋아합니다.</h3>
@@ -55,10 +54,6 @@ const About = () => {
                     </div>
                 </div>
                 </div>
-
-               
-            </div>
-            {/* </div> */}
         </div>
     );
 };
