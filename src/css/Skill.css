@@ -1,0 +1,68 @@
+div.skill{
+    height:100%;
+    width:100%;
+    background-color: #ffacb1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.skill_list{
+    width:80%;
+    height:90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div.skill_menu{
+    width:100%;
+    height:fit-content;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+
+div.skill_dashboard{
+    width: 100%;
+    height:80%;
+    background-color: antiquewhite;
+}
+
+div.skill_category{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width:100%;
+    height:100%;
+    justify-content: space-around;
+}
+
+ div.skill_index{
+    background-color: rgb(190, 190, 255);
+    margin:5px;
+    width:500px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.index_data{
+    width:400px;
+}
+
+
+
+
+
+@media(max-width: 768px) {
+
+    div.skill_category{
+        flex-direction: column;
+        overflow-y: scroll;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
