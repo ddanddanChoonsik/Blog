@@ -18,6 +18,7 @@ import '../css/slick-theme.css';
 // import $ from 'jquery';
 // import { useRef } from 'react';
 
+
 // import SemiLogo from '../assets/project/semi/PigPick_icon_gitpage.png';
 // import FinalLogo from '../assets/project/final/TRIP_US_LOGO-BLACK.png';
 import { valHooks } from 'jquery';
@@ -178,7 +179,6 @@ const Works = () => {
                          <div className='project' >         
                          <div className='project_thumnail'>
                               <video src={`${process.env.PUBLIC_URL}/assets/thumNail/${val.thumnail}`} controls autoPlay></video>
-                              {/* <video src={val.thumnail} controls autoPlay></video> */}
                          </div>
 
                          <div className='project_index'>
