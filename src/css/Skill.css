@@ -58,11 +58,39 @@ div.index_data{
 
 @media(max-width: 768px) {
 
-    div.skill_category{
-        flex-direction: column;
-        overflow-y: scroll;
-        justify-content: center;
+    div.skill{
+        width:100%;
+        height:100%;
+        display: flex;
+        /* justify-content: center; */
         align-items: center;
+
+    }
+    div.skill_list{
+        /* width:90%; */
+        height:70%;
+        /* border:5px dotted black; */
+
     }
 
+    div.skill_menu{
+        display: none;
+    }
+    div.skill_dashboard{
+        overflow-x: hidden;
+        overflow-y: scroll;
+        height:100%;
+        /* border:3px solid red; */
+    }
+
+    div.skill_category{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height:100%;
+    }
+
+    div.skill_category div{
+        width:auto;
+    }
 }

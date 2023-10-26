@@ -118,7 +118,6 @@ const Skill = () => {
                     <i class="fa-solid fa-chart-line"></i>
                 </div>
                 <div className='skill_dashboard'>
-
                      <div className='skill_category'>
                         {Object.keys(skillInfo).map((cat,cl)=>(
                             <div>
