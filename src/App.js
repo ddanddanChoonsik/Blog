@@ -13,7 +13,7 @@ function App() {
 
   let options = {
     activeClass: 'active', // the class that is appended to the sections links
-    anchors: ['Home', 'About', 'Skill', 'Works', 'Blank'], // the anchors for each sections
+    anchors: ['Home', 'About', 'Skill', 'Works'], // the anchors for each sections
     arrowNavigation: true, // use arrow keys
     className: 'SectionContainer', // the class name for the section container
     delay: 1000, // the scroll animation speed
@@ -53,10 +53,10 @@ function App() {
     <Works />
   </Section>
 
-  <Section>
+  {/* <Section>
 
     <Blank />
-  </Section>
+  </Section> */}
 
 </SectionsContainer>
 

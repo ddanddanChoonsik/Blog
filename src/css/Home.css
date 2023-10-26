@@ -160,11 +160,11 @@ div.main_img{
     background-color:rgb(142, 226, 198);
     border-radius: 60%;
     overflow: hidden;
-    /* width:50%; */
+    height: 60%;
 } 
 
 div.main_img img{
-     /* width:50%;  */
+     height:100%; 
      object-fit: contain;
 } 
 
@@ -229,8 +229,7 @@ div.main_img:hover{
 @media(max-width: 768px) {
 
     div.main_thema{
-        width: 100%;
-        /* height:75%; */
+        width: 90%;
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
@@ -240,20 +239,29 @@ div.main_img:hover{
 
     div.main_text_content {
         height: 50%;
-        /* width: 100%; */
+        width: 100%;
         display: flex;
         flex-direction: column;
-        /* align-content: center; */
         align-items: center;
         justify-content: center;}
     
+
+    div.main_text_content div{
+        justify-content: center;
+        align-items: center;
+    }
+
     div.main_title h1{
         font-size: 60px;
         color:#000000;
     }
 
     div.main_img {
-        height: fit-content;
+        /* height: fit-content; */
+        width:90%;
+    }
+    div.main_img img{
+        width:100%;
     }
 /* 
     div.main_img{
